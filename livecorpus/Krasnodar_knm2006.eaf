@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-02T23:46:02+03:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///C:/Users/Mitya/Downloads/Krasnodar_knm2006.mp4"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Krasnodar_knm2006.mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:94c2702f-d8e3-4c16-b643-b966b31c4098</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">9</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="22690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="23330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="25000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="27550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="28560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="31630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="31640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="36080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="36690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="38940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="39060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="40930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="41870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="45940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="46550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="52950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="53110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="60000"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="dmitriynikol" DEFAULT_LOCALE="ru"
+        LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@knm2006m" TIER_ID="text@knm2006m">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Ой...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>Вопрос интересный. Вопрос Великолепный.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Эх, это сложно, но, э, хорошо.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Прошлым летом было... Прошлым летом было очень странное лето.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>Оно было банально жарким.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Э, как и все южные лета.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>Э, #нрзб#, ну, мы, мы ходили с друзьями.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>Мы шлялись по разным местам, но, эээ, самый запоминающийся момент.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Ох, я даже не уверен, что это было тем летом, но я попытаюсь это вспомнить, окей.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="utterance" TIME_ALIGNABLE="true"/>
+    <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
